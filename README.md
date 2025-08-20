@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-08-20 at 11 50 17 PM (1)](https://github.com/user-attachments/assets/1b1c0386-9556-4496-9e2e-5e4cc601422f)![WhatsApp Image 2025-08-20 at 11 50 17 PM (1)](https://github.com/user-attachments/assets/6624a300-0865-41fd-8ec1-0edb76bd77c3)# sky130CMOSdesignWorkshop
+
 CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop
 # sky130-CMOS-Design-SPICE-Workshop
 CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop
