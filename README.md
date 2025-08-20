@@ -2,8 +2,8 @@
 CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop
 # sky130-CMOS-Design-SPICE-Workshop
 CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop
-<br>
-![banner-1024x683 png](https://github.com/user-attachments/assets/eb9603eb-d60f-4130-b18b-907fd08edc8f)
+<br>![WhatsApp Image 2025-08-21 at 12 24 13 AM](https://github.com/user-attachments/assets/4386ebb5-c063-4d66-88d8-f0ea86d53ad5)
+
 <br>
 **Brief description of the course**
 <br>
