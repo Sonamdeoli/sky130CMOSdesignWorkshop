@@ -682,7 +682,7 @@ display
 .endc
 
 .end
-<br>![WhatsApp Image 2025-08-20 at 22 43 17](https://github.com/user-attachments/assets/a686d25d-d6cf-43c4-b34e-dd12a7e4da83)
+<br>![WhatsApp Image 2025-08-21 at 12 06 45 AM](https://github.com/user-attachments/assets/a8f01d32-8a2c-4c3b-9e2d-7772d106b162)
 
 <br>Method to calculate the Noise Margins from the plot:
 <br>Run the ngspice command and open the plot
@@ -744,8 +744,7 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 .endc
 
 .end
-<br>![WhatsApp Image 2025-08-20 at 23 04 15](https://github.com/user-attachments/assets/1e5871cc-6b37-4ba5-8af8-ccce022abba6)
-<br>![WhatsApp Image 2025-08-20 at 23 04 15 (1)](https://github.com/user-attachments/assets/0409dd66-0419-4682-89e0-66ec7e0245a3)
+<br>![WhatsApp Image 2025-08-21 at 12 08 50 AM](https://github.com/user-attachments/assets/79fd7b87-b521-41b1-ae1f-aaaada29b56a)
 <br>To calculate the gain for the given plot:
 <br>Select the curve for which the gain is to be calculated (In this case, we chose the plot for 1.8V Vdd)
 <br>Left click on the point where the slope of the curve is almost changing toward the top of the plot
@@ -826,11 +825,8 @@ display
 .endc
 
 .end
-<br>![WhatsApp Image 2025-08-20 at 23 16 27](https://github.com/user-attachments/assets/fe7e2644-b7bd-4889-bfca-9d90d928a36c)
-
-<br>![WhatsApp Image 2025-08-20 at 23 16 27 (1)](https://github.com/user-attachments/assets/3790bc5f-c573-43cf-93eb-e8a347153d99)
-
-<br>![WhatsApp Image 2025-08-20 at 23 16 27 (2)](https://github.com/user-attachments/assets/a00e352a-f0bd-4505-b990-468e26124178)
+<br>![WhatsApp Image 2025-08-21 at 12 10 07 AM](https://github.com/user-attachments/assets/3ae75bcb-84ce-482d-881c-f9145a75c65d)
+<br>![WhatsApp Image 2025-08-21 at 12 11 22 AM](https://github.com/user-attachments/assets/42026c48-3cd1-4330-8ce0-24871e41e90c)
 
 <br>Since the pfet width is very huge as compared to the nfet width, the plot is shifted towards right
 <br>**To find the value of the switching threshold:**
