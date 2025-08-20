@@ -1,4 +1,4 @@
-# sky130CMOSdesignWorkshop
+![WhatsApp Image 2025-08-20 at 11 50 17 PM (1)](https://github.com/user-attachments/assets/1b1c0386-9556-4496-9e2e-5e4cc601422f)![WhatsApp Image 2025-08-20 at 11 50 17 PM (1)](https://github.com/user-attachments/assets/6624a300-0865-41fd-8ec1-0edb76bd77c3)# sky130CMOSdesignWorkshop
 CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop
 # sky130-CMOS-Design-SPICE-Workshop
 CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop
@@ -197,9 +197,9 @@ setplot dc1
 
 .end
 <br>In the lab activity, tt(typical corner) corner is used.
-<br>![VirtualBox_vsdworkshop_15_08_2025_18_05_15](https://github.com/user-attachments/assets/96ef8322-12f2-4932-9007-4bfa6d5f7d56)
-<br>![VirtualBox_vsdworkshop_15_08_2025_18_05_35](https://github.com/user-attachments/assets/82230928-d2dc-4d60-ae12-20b42381db43)
-<br>![VirtualBox_vsdworkshop_15_08_2025_18_05_46](https://github.com/user-attachments/assets/4cf6d045-408e-47f3-a5db-579d077acc13)
+<br>![WhatsApp Image 2025-08-20 at 11 50 17 PM (1) - Copy](https://github.com/user-attachments/assets/2d521c18-3537-4715-805d-a4cb845dc640)
+<br>![WhatsApp Image 2025-08-20 at 11 50 17 PM - Copy](https://github.com/user-attachments/assets/d0cbdff5-8bca-4aa6-bb76-eae825924352)
+<br>![Uploading WhatsApp Image 2025-08-20 at 11.50.16 PM (1).jpeg…]()
 <br>By left click on the point on the required curve, we get the value of Id at that point as displayed in the the form of y0 in figure and y0 is value of Id in amperes.
 <br>
 <h2>Velocity Saturation and basics of CMOS inverter VTC</h2>
