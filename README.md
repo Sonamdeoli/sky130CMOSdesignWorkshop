@@ -452,8 +452,8 @@ run
 .endc
 
 .end
-<br>![VirtualBox_vsdworkshop_19_08_2025_21_39_24](https://github.com/user-attachments/assets/991cbf04-912a-4cfa-8e3b-3580e4d4faa9)
-<br>![VirtualBox_vsdworkshop_19_08_2025_21_39_44](https://github.com/user-attachments/assets/a788378a-605c-4d8b-9e9e-11f30c964485)
+<br>![WhatsApp Image 2025-08-21 at 12 04 56 AM](https://github.com/user-attachments/assets/06f88504-c838-4f9e-937a-aaabd7a015d6)
+
 <br>
 **Rise delay** is the time difference between when the input drops through Vdd/2 and when the output rises through Vdd/2.
 <br>
