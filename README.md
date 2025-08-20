@@ -417,9 +417,9 @@ display
 .endc
 
 .end
-<br>![VirtualBox_vsdworkshop_19_08_2025_21_24_58](https://github.com/user-attachments/assets/3d3072b5-3384-4986-9199-c47fded29087)
-<br>![VirtualBox_vsdworkshop_19_08_2025_21_25_10](https://github.com/user-attachments/assets/1e6e755e-d79e-49a5-8670-a78f09419d7b)
-<br>
+<br>![WhatsApp Image 2025-08-21 at 12 02 44 AM](https://github.com/user-attachments/assets/db6333be-ab6d-41b0-8ba1-4e04b4878694)
+<br>![WhatsApp Image 2025-08-21 at 12 03 56 AM](https://github.com/user-attachments/assets/7177188c-322c-4df2-abd9-4cda956abcd9)
+
 <li>To find the switching threshold voltage (Vm), look for the region where Vout is about equal to Vin on the plot.</li>
 <li>Right-click and drag to select and zoom in on this area a couple of times until the Vm point is clear.</li>.
 <li>Left-click near the spot on the curve where Vout should be nearly equal to Vin.</li>
