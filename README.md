@@ -7,19 +7,7 @@ CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop
 <br>
 **Brief description of the course**
 <br>
-VLSI System Design organized a ten day workshop on CMOS circuit design and SPICE simulation using SKY130 technology.The workshop offered an in-depth knowledge of the MOSFET fundamentals, CMOS inverter behaviour, switching thresholds, noise margins, dynamic simulations and how the power supply and device variations such as etching and oxide thickness affect the circuit, all reinforced through hands-on CMOS/SPICE exercises, including circuit simulation, waveform analysis and real device exploration.
-<br>
-This workshop was structured into five sections:
-<br>1) NMOS Fundamentals: Basics of drain current (Id), drain-to-source voltage (Vds) and their characteristic plot
-<br>2) Velocity Saturation and Basics of CMOS Inverter voltage tranfer characteristics and plot between Id and Vgs and plot to determine Vt
-<br>
-3) Switching threshold and dynamic simulations: Analyzing PMOS/NMOS W/L ratios and threshold voltage (Vm) through practical simulations
-<br>
-4) Evaluating CMOS Noise margins and inverter robustness
-<br>
-5) Lastly, studying the impact of power supply and device variations (etching, oxide thickness) on circuit and evaluating their robustnes. We studied the advantages and disadvantages of using small power supply and also the impact of device variation on single inverter and and inverter chain were discussed.
-<br>Each section included practical lab exercises using SPICE- which enables us to apply theory to simulate circuits, study the waveforms and observe real device behaviour practically.
-<br>
+VLSI System Design organized a ten-day workshop on CMOS circuit design and SPICE simulation using the SKY130 technology node. The workshop provided comprehensive training on MOSFET fundamentals, CMOS inverter characteristics, switching thresholds, noise margins, and dynamic circuit behavior, along with an understanding of how supply voltage scaling and process variations such as etching and oxide thickness affect circuit performance. The sessions were structured into five modules, beginning with the study of NMOS fundamentals, including drain current, drain-to-source voltage, and their characteristic curves. This was followed by an introduction to CMOS inverter basics, covering velocity saturation, voltage transfer characteristics, and threshold voltage extraction. The third module focused on switching thresholds and dynamic simulations, highlighting the role of PMOS/NMOS width-to-length ratios in determining the switching point, while the fourth emphasized noise margin evaluation and inverter robustness. The final module examined the impact of supply voltage changes and device variations on both single inverters and inverter chains, with discussions on the benefits and limitations of operating at lower supply voltages. Each topic was reinforced through SPICE-based practical sessions, enabling participants to simulate circuits, analyze waveforms, and gain direct insight into real device behavior.
 **INDEX:**
     <ul>
       <li>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
@@ -836,7 +824,8 @@ display
 <br>A point x0 = 0.988568, y0 = 0.985 is obtained
 <br>Since x0 ~ y0. Therefore, Switching Threshold Voltage = Vm = x0 = y0 = 0.988V
 <br><h2>Conclusion</h2>
-<br>Throughout the course, I gained a comprehensive understanding of MOSFETs and CMOS inverters. I learned various techniques to modify inverter characteristics and acquired practical skills in creating SPICE decks from netlists and running simulations. The study of voltage transfer characteristics and their influencing factors deepened my knowledge further. Additionally, exploring static behavior and its components was highly enlightening. The hands-on lab activities were particularly valuable, as analyzing simulation plots encouraged me to experiment with parameter adjustments. Overall, the workshop significantly enhanced my grasp of MOSFET fundamentals and sparked a keen interest in the subject. The continuous guidance provided by the VLSI System Design team made this experience highly rewarding.
+<br>This workshop provided an in-depth exploration of MOSFETs and CMOS inverter design. I learned how to alter inverter behavior through several approaches and became proficient in setting up SPICE simulations from netlists. The examination of voltage transfer characteristics, along with the static evaluation of inverter performance, enriched my conceptual understanding. The lab sessions were particularly impactful, offering practical exposure and opportunities to observe simulation outcomes firsthand. This experience not only strengthened my foundational knowledge but also inspired me to continue studying MOSFET devices. The supportive environment created by the VLSI System Design team greatly contributed to a positive and fruitful learning journey.
+
 <br><h2>References</h2>
 <li>https://github.com/kunalg123/sky130CircuitDesignWorkshop</li>
 <li>https://www.vlsisystemdesign.com/</li>
@@ -848,7 +837,6 @@ display
 
 
 
-<br>
 
 
 
@@ -865,7 +853,6 @@ display
 
 
     
-  <li>Drain-to-Source Voltage (Vds)</li>
-  <li>Characteristic plots</li>
+  
 </ul>
 
