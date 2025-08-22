@@ -189,14 +189,15 @@ setplot dc1
 <br>By left click on the point on the required curve, we get the value of Id at that point as displayed in the the form of y0 in figure and y0 is value of Id in amperes.
 <br>
 <h2>Velocity Saturation and basics of CMOS inverter VTC</h2>
-In the Second session of the workshop, SPICE simulations were carried out for lower technology nodes, and the characteristics of both long-channel and short-channel devices were studied. The concepts of velocity saturation at low and high electric fields, along with the drain current model under velocity saturation, were also explored.
-<br>At the end of this session, we studied about the operation of MOSFET as a switch and analysis of the CMOS inverter characteristics.
+In second day of workshop SPICE simulations run for lower nodes with different W and L values with same W/L ratio and their characteristics were studied. By studying drain current v/s Vgs   dependence concept of velocity saturation is introduced. For the second part, operation of MOSFET as a switch is studied and analysis of CMOS inverter.
+
 <h3>Part 1: SPICE Simulation for lower nodes and velocity saturation effect</h3>
  <h4>What was learnt</h4>
-  We did some SPICE Simulation for two  devices whose channel width and channel length is different but there width by length ratio(W/L) is same .
-<br>Case1-    W=1.8u, L=1.2u device (W/L=1.5)
-<br>Case2-     W=0.375U, L=0.25 device (W/L=1.5)
-<br>As W/L ratio is constant then (Id) at saturation region should be constant . 
+  We did some SPICE Simulation for two  devices 
+<br>Case1 :    W=1.8u, L=1.2u device (W/L=1.5)
+<br>Case2 :    W=0.375U, L=0.25 device (W/L=1.5)
+<br>If  W/L ratio is constant then (Id) at saturation region should be constant . 
+<br>.............................................................................
 <br>Simulate Id  v/s VGS  graph to the difference between two regions
 <br>For case 1 – drain current quadratic dependence 
 <br>case 2- (Short channel device) Id quadratic change for small current but on increasing gate voltage current increases linearly because of velocity saturation.
