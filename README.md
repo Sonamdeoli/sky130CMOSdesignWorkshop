@@ -143,8 +143,7 @@ The first day of the workshop focused on the basics of SPICE simulation and its 
 <br>Effective channel length changes so, drain current increases as Vds increases (not complete constant )
 <br>Id = (Kn')/2) (W/L) [ ((Vgs − Vt))2[1 + λVds] …….more accurate equation
 <br>λ = channel length modulation
-
-    <br>
+<br>
 <h3>Part 3: Introduction to SPICE</h3>
 <h4>What was learnt</h4>
 <br>SPICE is a software/engine which already have predefined models which can be used to calculate waveforms and delays by inserting the input values. 
