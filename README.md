@@ -133,31 +133,17 @@ The first day of the workshop focused on the basics of SPICE simulation and its 
 <br>Vds can be sweeped from 0V to (Vgs-Vt)V to make the device work in linear region of operation.
 <br>Id = Kn.( Vgs – Vt)Vds
 
-<br>Pinch off condition:  Phenomenon of channel getting disappear is known as pinch off point .
-                     Vgs – Vds  <= Vt
-                     Vt > Vgs – Vds  ( saturation region)
+<b>Pinch off condition:</b>  Phenomenon of channel getting disappear is known as pinch off point .
+<br>  Vgs – Vds  <= Vt
+<br>  Vt > Vgs – Vds  ( saturation region)
 <br>Drain Current model for saturation region of operation:
- <br>ID = (Kn')/2) (W/L) [ ((VGS − VT))2
+<br>Id = (Kn')/2) (W/L) [ ((Vgs − Vt))^2
 
 <br>I<sub>D</sub> = μ<sub>n</sub> C<sub>ox</sub> (W/L) [ (V<sub>GS</sub> − V<sub>T</sub>) V<sub>DS</sub> − (V<sub>DS</sub><sup>2</sup> / 2) ]
-<br>The term µn.Cox is denoted by kn' and kn' is known as process transconductance
-<br>kn'.(W/L) is denoted by kn and kn is also known as gain factor
-<br>Condition on Vds for the MOSFET to be in linear/resistive region or saturation/pinch-off region
-<br>When Vds <= (Vgs-Vt), the MOSFET is in linear region of operation
-<br>For this region, Id=kn.(Vgs-Vt).Vds as (Vds^2)/2 is a very small amount in this case
-<br>Vdds can be sweeped from 0V to (Vgs-Vt)V to make the device work in linear region of operation
-<br> Dependance of Id on Vds in pinch-off region: The chanel voltag
-e is denoted with Vgs-Vds.
-<br>![WhatsApp Image 2025-08-20 at 23 32 14 (1)](https://github.com/user-attachments/assets/da4b26f3-dda6-48a3-bf45-b91488917c67)
+<br>Effective channel length changes so, drain current increases as Vds increases (not complete constant )
+<br>Id = (Kn')/2) (W/L) [ ((Vgs − Vt))2[1 + λVds] …….more accurate equation
+<br>λ = channel length modulation
 
-<b>Pinch-off condition</b> is when Vgs-Vds=Vt
-<br>When the Pinch-off phenomenon is started, the channel begins to disappear. Basically, the channel starts to disappear only from the Drain side acquiring a triangular shape.
-When Vgs-Vds<Vt, there is no channel present near the Drain terminal.Id becomes (kn/2).(Vgs-Vt)^2
-<br>Looks like a perfect current source but in reality it is not true because the effective conductive channel length can be still changed by applying Vds.
-<br>As Vds increases, more area of channel near the drain terminal will disappear resulting in decrease in effective channel length.
-<br><b>New modified drain current equation</b>
-    <br>I<sub>D</sub> = (K<sub>n'</sub>)/2) (W/L) [ ((V<sub>GS</sub> − V<sub>T</sub>))<sup>2</sup>[1+λV<sub>DS</sub>]
-<br>Here, λ is the channel length modulation
     <br>
 <h3>Part 3: Introduction to SPICE</h3>
 <h4>What was learnt</h4>
