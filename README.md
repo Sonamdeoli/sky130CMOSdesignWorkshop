@@ -108,27 +108,37 @@ The first day of the workshop focused on the basics of SPICE simulation and its 
 <br>
      <h3>Part 2: NMOS Resistive region and Saturation region of operation</h3>
      <h4>What was learnt</h4>
-     The resistive region, also known as linear region of operation, occurs when the transistor operates with Vgs=Vt, and further changes can be observed when Vgs>Vt. In this region, the induced charge Qi is proportional to (Vgs-Vt). For analysis, we took 
-    <br>Vgs=1V, Vds=0.05V, Vt=0.45V
-    <br>When Vds=0, the voltage across the n channel remains constant but not the case when Vds is applied due to potential gradient across the channel as source is at 0V but drain at 0.05V.
-    <br>Let the effective channel length be L and 'x' axis be along the channel length and 'y' axis be perpendicular to the channel length. Let V(x) be the voltage at any point 'x' along the channel. Now, Vgs-V(x) is the gate-to-channel voltage at that point.
-<br>Therefore, in the channel, induced charge at any point 'x' Q<sub>i</sub>(x) ∝ − ( V<sub>GS</sub> − V(x) − V<sub>T</sub> )
-<br>Formula for charge induced at any point ‘x’
-<br>Q<sub>i</sub>(x) = − C<sub>ox</sub> ( V<sub>GS</sub> − V(x) − V<sub>T</sub> )
-<br>Gate oxide capacitance formula C<sub>ox</sub> = &epsilon;<sub>ox</sub> / t<sub>ox</sub>
-<br>where
-    <br>εox is the oxide permittivity = 3.97εo = 3.510e-11 F/m
-    <br>tox is the oxide thickness
+     The resistive region, also known as linear region of operation, region where the transistor operates at Vgs = Vt.
+<br>Changes observed when Vgs>Vt :  induced charge Qi is proportional to (Vgs-Vt)
+<br>Analyze it at Vgs = 1V and small Vds (~0.05V)  , Vt(NMOS) = 0.45
+<br>Vgs=0V , Vds is non zero value and because of Vds value potential at every point in channel will be different.
+<br>Let the effective channel length be L and 'x' axis be along the channel length and 'y' axis be perpendicular to the channel length. Let V(x) be the voltage at any point 'x' along the channel. Because of Vds (positive) effective channel voltage will vary , Vgs- V(x).
+
+<br>charge induced at any point 'x' , Q<sub>i</sub>(x) = − C<sub>ox</sub> ( V<sub>GS</sub> − V(x) − V<sub>T</sub> )
+<br>Gate oxide capacitance , C<sub>ox</sub> = &epsilon;<sub>ox</sub> / t<sub>ox</sub>
+<br>where,
+    <br>εox = oxide permittivity 
+    <br>    = 3.97εo 
+    <br>    = 3.510e-11 F/m
+    <br>tox = oxide thickness
 
 <br> From device point of view, we have 2 types of current
-<br>Drift Current: Current due to potential difference
-<br>Diffusion Current: Current due to difference in carrier concentration
-<br>Here we are only talking about the drift current (Id) that is from source to drain.
-<br> Id=velocity of charge carriers* available charge over channel width
-<br>![Uploading WhatsApp Image 2025-08-20 at 23.32.14.jpeg…]()
+<br>1.	Drift Current: Current due to potential difference (in channel).
+<br>2.	Diffusion Current: Current due to difference in carrier concentration
+<br>Id=velocity of charge carriers* available charge over channel width ( Id from drain to source) .
+<br>ID = μn Cox (W/L) [ (VGS − VT) VDS − (VDS2 / 2) ]
 
-<br>
-<b>Drift current (Id) formula</b>
+<br>Id= kn'.(W/L)(Vgs-Vt).Vds as (Vds^2)/2 , where kn' is known as process transconductance
+<br>Id=kn.(Vgs-Vt).Vds as (Vds^2)/2 , not in linear region ( quadratic equation)
+<br>Vds can be sweeped from 0V to (Vgs-Vt)V to make the device work in linear region of operation.
+<br>Id = Kn.( Vgs – Vt)Vds
+
+<br>Pinch off condition:  Phenomenon of channel getting disappear is known as pinch off point .
+                     Vgs – Vds  <= Vt
+                     Vt > Vgs – Vds  ( saturation region)
+<br>Drain Current model for saturation region of operation:
+ <br>ID = (Kn')/2) (W/L) [ ((VGS − VT))2
+
 <br>I<sub>D</sub> = μ<sub>n</sub> C<sub>ox</sub> (W/L) [ (V<sub>GS</sub> − V<sub>T</sub>) V<sub>DS</sub> − (V<sub>DS</sub><sup>2</sup> / 2) ]
 <br>The term µn.Cox is denoted by kn' and kn' is known as process transconductance
 <br>kn'.(W/L) is denoted by kn and kn is also known as gain factor
