@@ -65,7 +65,7 @@ VLSI System Design organized a ten-day workshop on CMOS circuit design and SPICE
   <li>References</li>
 </ul>
 <h2>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)</h2>
-In the first session of the workshop, we began by understanding the significance of SPICE as a powerful tool for circuit design and analysis, demonstrating how it can be used to tune the cell delays by varying the W/L ratio of the transistors. The fundamentals of NMOS transistors were then introduced, with a focus on threshold voltage and the different regions of operation—cut-off, resistive, and saturation. This was followed by a detailed study of the relationship between drain current (Id) and drain-to-source voltage (Vds). The session concluded with the practical setup of SPICE, where we simulated Id–Vds characteristics at varying gate-to-source voltages (Vgs), reinforcing both theoretical concepts and hands-on application.
+The first day of the workshop focused on the basics of SPICE simulation and its importance in circuit design. The session highlighted how SPICE can be used to tune cell delays by varying the width-to-length (W/L) ratio of transistors. An introduction to NMOS transistors was given, covering the concept of threshold voltage and the regions of operation, specifically the resistive and saturation regions, using the drain current model. The session concluded with an introduction to the SPICE environment, where we learned the basic setup for simulations and successfully ran our first SPICE simulation.
 <ul>
  <h3>Part 1: Introduction to Circuit Design and SPICE Simulation</h3>
     <h4>What was learnt</h4>
