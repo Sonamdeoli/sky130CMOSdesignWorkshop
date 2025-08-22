@@ -87,7 +87,7 @@ The first day of the workshop focused on the basics of SPICE simulation and its 
 <br>2.	Vsb =  Potential 
 <br>    in this case more value of Vgs required for a strong inversion, Vgs= Vto + V1
 
-<br><b>Threshold Voltage Equation</b>b>
+<br><b>Threshold Voltage Equation</b>
 <br>V<sub>T</sub> = V<sub>T0</sub> + γ ( √(|-2φ<sub>F</sub> + V<sub>SB</sub>|) − √(|-2φ<sub>F</sub>|) )
 <br>where,
 <br>V<sub>T0</sub> = threshold voltage when Vsb=0 
