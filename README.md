@@ -197,41 +197,37 @@ In second day of workshop SPICE simulations run for lower nodes with different W
 <br>Case1 :    W=1.8u, L=1.2u device (W/L=1.5)
 <br>Case2 :    W=0.375U, L=0.25 device (W/L=1.5)
 <br>If  W/L ratio is constant then (Id) at saturation region should be constant . 
-<br>.............................................................................
+<br>
 <br>Simulate Id  v/s VGS  graph to the difference between two regions
-<br>For case 1 – drain current quadratic dependence 
-<br>case 2- (Short channel device) Id quadratic change for small current but on increasing gate voltage current increases linearly because of velocity saturation.
+<br>Differences : Case 1 – Drain current has quadratic dependence.
+<br>              Case 2 – Drain current changes Quadratically for small value of gate voltage but increases linearly for increasing gate voltage.  Reason is velocity saturation.
+<b>Velocity saturation effect : </b>a short channel effect where carrier velocity reaches a maximum value (saturates) at higher electric field .
+
 <br><b>Formulae of velocity and mobility</b>
 <br>v<sub>n</sub>(m/s)=u<sub>n</sub>.dV/dx
 <br>
-<b>Velocity saturation effect for Short channel length</b>
-<br>For lower value of EF velocity tends to linear function of EF but after some time becomes constant.
+<br>………….FIGURE………..
 <br>Vn(m/S) = linear for ε<=εc
 <br>Vn(m/S) = constant for ε>=εc
-<br>v<sub>n</sub>(m/s)=u<sub>n</sub>. ε/(1+ ε/ε<sub>c</sub>), for ε<=εc
-<br>v<sub>n</sub>(m/s)=v<sub>sat</sub> , for  ε>=εc
-<br>![WhatsApp Image 2025-08-20 at 23 32 18](https://github.com/user-attachments/assets/032aa7b6-9231-4cd2-b892-6ffa032457c2)
+<br>vn(m/s)=un. ε/(1+ ε/εc), for ε<=εc
+<br>vn(m/s)=vsat , for ε>=εc
 
-<br>Solve above formulae using continuity equation 
-<br>Then re- deriving drain current using the boundary conditions.
+<br>For continuity,   ε=εc
+<br>εc = 2Vsat/ un
+<br>re driving drain current equation using boundary condition , 
 <br>Id= -Vn(x). Qi(x).W
-<br>After substitiution, Id becomes too complex.
-<br>“lets try one model : OPERATINAL MODES”
-<br>There are 4 different modes :
-<br>1.	Cut off 
-<br>2.	Resistive
-<br>3.	Velocity saturation
-<br>4.	Saturation
-<br>(for long channel there is no velocity saturation)
-<br>Let's call (Vgs-Vt)=Vgt
-<br>I<sub>d</sub>=k<sub>n</sub>.[(V<sub>gt</sub>.V<sub>min</sub>)-(V<sub>min</sub><sup>2</sup>/2][1+λV<sub>ds</sub>]
-<br>In Id equation λV<sub>ds</sub> vanishes for low value of Vds
-<br>Vmin = min(Vgt, Vds, Vsat)
-<br>where Vsat is Technology parameter (saturation voltage) 
-<br>When Vgt is the smallest among Vgt, Vds, and Vdsat, the device operates in the saturation region.
-<br>When Vds is the smallest, the device operates in the resistive (linear) region.
-<br>When Vdsat is the smallest, the device operates in the velocity saturation region.
-<br>In general, current tends to increase at lower voltage nodes. Velocity saturation causes the device to enter saturation earlier than expected, limiting further current increase.
+<br>After substitiution, Id becomes too complex, so operation modes concept will be used 
+<br>There are different modes,
+<br> 1.	Long channel(>250nm) : Cut off,  Resistive, Saturation.
+<br> 2.	Short Channel(<250nm) : Cut off, Resistive, Velocity saturation, Saturation.
+<br> Id=kn.[(Vgt.Vmin)-(Vmin2/2][1+λVds]
+<br> for low value of Vds, λVds vanishes
+<br> Vmin = min(Vgt, Vds, Vdsat)
+<br> Where, Vdsat is the saturation voltage 
+<br> For drain current,  Id = un .Cox.(W/L). ((Vgs – Vdsat) – (Vdsat^2)/2)[1 + λVds] 
+<br>When we move from higher dimension to lower dimension velocity saturation causes device to saturate early.
+<br>
+<br>
 <h4>Lab Activity</h4>
 <br>We will plot the graph between Id vs Vds for short channel device and following code is needed:
 <br>*Model Description
