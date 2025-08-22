@@ -69,13 +69,14 @@ The first day of the workshop focused on the basics of SPICE simulation and its 
 <ul>
  <h3>Part 1: Introduction to Circuit Design and SPICE Simulation</h3>
     <h4>What was learnt</h4>
-    In this we learnt how SPICE can be used to study the device behaviour by simulating the circuits and analyzing the waveforms. W/L ratio is an important parameter in deciding the device performance. 
-    <br>We study the structure of NMOS- it consists of a p-type substrate, has 4 terminals (G,S,D,B), an isolation region created from SiO2 is present to isolate different devices, 2 n+ diffusion regions known as source and drain near the isolation region, a gate oxide layer deposited on the substrate followed by a poly-Si or metal gate layer on top of it. 
-   <br>G stands for gate
-    <br>S stands for source
-    <br>D stands for drain
-    <br>B stands for body
-    <br>Body terminal can be used to tune the threshold voltage.
+    <br>We started with learning about SPICE simulation and its importance. As SPICE is used to simulate the circuit and analyze its waveform. By analyzing its waveform, we can understand how  PMOS and NMOS transistor can arrange to give desired result . also SPICE is used to tune cell delay by using varying (W/L) ratio of transistor. 
+<br>Introduction to NMOS : NMOS is a 4 terminal device consisting of p substrate, isolation region made up of SiO2  to isolate different devices, n+ diffusion region for source and drain , gate oxide layer on substrate and a poly si or metal gate layer on the top of gate oxide.
+<br>4 terminal in NMOS are as follows:
+<br>1.	G = Gate
+<br>2.	S= Source
+<br>3.	D= Drain
+<br>4.	B= body
+
     <br>![WhatsApp Image 2025-08-20 at 23 30 42](https://github.com/user-attachments/assets/9066bd97-a346-429d-a059-898c850275c0)
 
 <br>Threshold Voltage (Vt)</b>- This is the minimum gate-to-source voltage (Vgs) required to form a conducting channel at the semiconductor surface or we can say that this is the voltage where "strong inversion" happens.
