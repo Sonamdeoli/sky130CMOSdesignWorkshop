@@ -298,9 +298,9 @@ setplot dc1
 
  In this Topic we will explore the CMOS topic . Introduce standard MOS voltage parameters creating CMOS using NMOS  and PMOS and plot load current for PMOS and NMOS and at last merge both the curves of NMOS and PMOS to plot VTC.
 <br>
-<b>MOS Device characteristics</b> :
-<b>MOS as a switch :  </b>
-<b> …………figure………..
+<br>MOS Device characteristics< :
+<br>MOS as a switch : 
+<br> …………figure………..
 <br>This transistor works whenever Vgs>Vt
 <br>Transistor acts as a switch with two conditions:
 <br>1. With infinite OFF resistance when |vgs|<|Vt|
@@ -336,8 +336,9 @@ setplot dc1
 <br>………………figure……………..
 <br>Step 4 : Merge NMOS and PMOS load curves 
 <br>……………..figure……………
-<br>Step 5 : Vin and Vout  are common to PMOS and NMOS . Graphically , we will pick pick up Vin <br>points from the interactions of corresponding load lines.
+<br>Step 5 : Vin and Vout  are common to PMOS and NMOS . Graphically , we will pick pick up Vin points from the interactions of corresponding load lines.
 <br>………………………..figure……………………………..
+<br>
 <br>
 <br>
 <b><br><h2>CMOS Switching threshold and dynamic simulations</h2>
