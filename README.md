@@ -297,48 +297,50 @@ setplot dc1
  <br>![WhatsApp Image 2025-08-20 at 23 32 54](https://github.com/user-attachments/assets/f082d8c1-9e1b-4bf2-a2ee-675b9edfdba1)
 
  In this Topic we will explore the CMOS topic . Introduce standard MOS voltage parameters creating CMOS using NMOS  and PMOS and plot load current for PMOS and NMOS and at last merge both the curves of NMOS and PMOS to plot VTC.
-<br>MOSFET As a Switch: 
-<br>Characteristic of MOS device :
-<br>Transistor works whenever : |Vgs| > Vt
-<br>Transistor acts as a switch with two conditions: 
-<br>1.	With infinite OFF resistance when |vgs|<|Vt|
-<br>2.	With finite ON resistance when |Vgs|>|Vt|
-<br>CMOS: complementary MOS
-<br>NMOS+ PMOS = CMOS
-<br>For understanding CMOS first have to understand PMOS and NMOS and their voltage current parameters.
-<br>1.	When Vin is LOW and equal to ‘0V’ then (PMOS turned ON and NMOS turned OFF)
-<br>2.	When Vin = Vdd, for PMOS direct path exists between Vout and Vss resulting Vout=0.
-<br>For NMOS Vout = Vdd
-<br>CMOS will be made using combination of PMOS and NMOS , Where
-<br>•	G= gate
-<br>•	S= source
-<br>•	D= drain
-<br>•	Vgs= Gate- Source voltage
-<br>•	Vds = Drain – Source voltage
-<br>•	P,N = PMOS and NMOS respectively
-<br>•	Idsn= Drain Source current through NMOS
-<br>•	Idsp= Drain Source current through PMOS
-<br>VTC
-<br>1.	To obtain load curve for NMOS and PMOS first have to obtain Idsn V/s Vdsn curve for NMOS and PMOS respectively
-<br>By observations , 
-<br>Vgsn= Vin-Vss = Vin
-<br>VdsN= ‘Vout’
-<br>Vgsp = ‘Vin – Vdd’ 
-<br>Vdsp = Vout – Vdd
-<br>For the relationship between the currents: Idsp=-Idsn
-<br>Load curve for PMOS transistor in CMOS inverter
-<br>![WhatsApp Image 2025-08-20 at 23 33 24](https://github.com/user-attachments/assets/72792c55-6dfd-4bef-9586-20fcca3481f3)
-<br> For NMOS ![WhatsApp Image 2025-08-20 at 23 33 43](https://github.com/user-attachments/assets/c664f97b-897d-40b1-a1d8-d045437e0b28)
-<br>for CMOS![WhatsApp Image 2025-08-20 at 23 34 12](https://github.com/user-attachments/assets/81962ab0-85c5-438d-8e76-c4faf0147ad1)
+<br>
+<b>MOS Device characteristics</b> :
+<b>MOS as a switch :  </b>
+<b> …………figure………..
+<br>This transistor works whenever Vgs>Vt
+<br>Transistor acts as a switch with two conditions:
+<br>1. With infinite OFF resistance when |vgs|<|Vt|
+<br>2. With finite ON resistance when |Vgs|>|Vt|
 
+<br>CMOS (complementary MOS) = NMOS+ PMOS 
+<br>……….figure……………
 
+<br>Vdd can have Two values :
+<br>1.	Vin is high and equal to Vdd 
+<br>NMOS = turns ON ,  PMOS = turns OFF
+<br>2.	Vin is low and equal to ‘0V’
+<br>NMOS = turns OFF ,  PMOS = turns ON
+ 
+<br>CMOS 
+<br>……………………………….figure………….. 
+<br>Where, 
+<br>• G= gate
+<br>• S= source
+<br>• D= drain
+<br>• Vgs= Gate- Source voltage
+<br>• Vds = Drain – Source voltage
+<br>• P,N = PMOS and NMOS respectively
+<br>• Idsn= Drain Source current through NMOS
+<br>• Idsp= Drain Source current through PMOS
 
-
-
-
-
-
-<br><h2>CMOS Switching threshold and dynamic simulations</h2>
+<br>Voltage transfer characteristics (VTC):
+<br>Step 1 :  Plot Idsn V/s Vdsn curve for NMOS and PMOS respectively
+<br>…………………………..figure………………
+<br>Step 2 : Convert PMOS gate source voltage to Vin using equation Vin = Vgsp + Vdd
+<br>…………figure………..
+<br>Step 3 : Convert PMOS and NMOS drain source voltage to Vout (Load curve obtained)
+<br>………………figure……………..
+<br>Step 4 : Merge NMOS and PMOS load curves 
+<br>……………..figure……………
+<br>Step 5 : Vin and Vout  are common to PMOS and NMOS . Graphically , we will pick pick up Vin <br>points from the interactions of corresponding load lines.
+<br>………………………..figure……………………………..
+<br>
+<br>
+<b><br><h2>CMOS Switching threshold and dynamic simulations</h2>
 <br>In the third session of the workshop, the main focus was on understanding voltage transfer characteristics using SPICE simulations. Later, CMOS inverter robustness was discussed, with a detailed explanation of the switching threshold. It was also shown how the switching threshold relates to the (W/L) ratios of PMOS and NMOS, and how you can find one if the other is preset.
 <br>![WhatsApp Image 2025-08-20 at 23 38 18](https://github.com/user-attachments/assets/adff7c10-fada-4adc-ba9e-2bc399543654)
 
