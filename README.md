@@ -76,8 +76,7 @@ The first day of the workshop focused on the basics of SPICE simulation and its 
 <br>2.	S= Source
 <br>3.	D= Drain
 <br>4.	B= body
-
-    <br>![WhatsApp Image 2025-08-20 at 23 30 42](https://github.com/user-attachments/assets/9066bd97-a346-429d-a059-898c850275c0)
+<br>![WhatsApp Image 2025-08-20 at 23 30 42](https://github.com/user-attachments/assets/9066bd97-a346-429d-a059-898c850275c0)
 
 <br>Threshold Voltage (Vt)</b>- This is the minimum gate-to-source voltage (Vgs) required to form a conducting channel at the semiconductor surface or we can say that this is the voltage where "strong inversion" happens.
 <br>
